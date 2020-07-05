@@ -85,7 +85,7 @@
     "types": ["passive", "weapon keyword"]
   },
   {
-    "description": "While defending, if you spend a dodge token, you gain \"%{iconSurgeBlock} : %{iconBlock}\".",
+    "description": "While defending, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\".",
       "name": "Block",
       "types": ["passive", "unit keyword"]
   },
@@ -120,7 +120,7 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "While converting offensive surges, change up to X %{iconSurgeHit} results to %{iconCrit} result(s).",
+    "description": "While converting offensive surges, change up to X %{surgeHit} results to %{crit} result(s).",
     "name": "Critical X",
     "types": ["passive", "unit keyword", "weapon keyword"]
   },
@@ -235,7 +235,7 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "While attacking a unit that has Armor, change up to X %{iconHit} result(s) to %{iconCrit} result(s).",
+    "description": "While attacking a unit that has Armor, change up to X %{hit} result(s) to %{crit} result(s).",
     "name": "Impact X",
     "types": ["passive", "weapon keyword"]
   },
@@ -270,7 +270,7 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "While attacking a unit that has a Force upgrade icon, you gain \"%{iconSurgeHit} : %{iconCrit}\".",
+    "description": "While attacking a unit that has a Force upgrade icon, you gain \"%{surgeHit} : %{crit}\".",
       "name": "Jedi Hunter",
       "types": ["passive", "unit keyword"]
   },
@@ -325,7 +325,7 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "While attacking, if you performed a full standard move at your maximum sped before this attack, you may turn 1 attack die to a %{iconCrit} result.",
+    "description": "While attacking, if you performed a full standard move at your maximum sped before this attack, you may turn 1 attack die to a %{crit} result.",
     "name": "Ram X",
     "types": ["passive", "weapon keyword"]
   },
@@ -380,7 +380,7 @@
     "types": ["passive", "upgrade keyword"]
   },
   {
-    "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{iconSurgeBlock} : %{iconBlock}\" and the attacker suffers 1 wound for each %{iconSurgeBlock} rolled.",
+    "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\" and the attacker suffers 1 wound for each %{SurgeBlock} rolled.",
       "name": "Soresu Mastery",
       "types": ["passive", "unit keyword"]
   },
@@ -440,7 +440,7 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "You can spend dodge tokens to cancel %{iconCrit} results.",
+    "description": "You can spend dodge tokens to cancel %{crit} results.",
     "name": "Outmaneuver",
     "types": ["passive", "unit keyword"]
   },

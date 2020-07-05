@@ -13,7 +13,7 @@ customElements.define('keyword-card', class extends HTMLElement {
     this.types = this.getAttribute('types')
 
     this.card.header = templates.header(this.name)
-    this.card.body = templates.body(this.description)
+    this.card.body = templates.body(this.insertIcons(this.description))
 
     this.addEventListener('expanding-card:toggle', ({ detail: open }) => {
       this.dispatchEvent(new CustomEvent('keyword-card:toggle', {
@@ -21,6 +21,20 @@ customElements.define('keyword-card', class extends HTMLElement {
         detail: open
       }))
     })
+  }
+
+  insertIcons(description) {
+    const matches = description.match(/%\{\w+\}/gi)
+    let newDescription = description
+
+    if (matches) {
+      matches.forEach(match => {
+        const iconName = match.match(/%\{(\w+)\}/)[1]
+        newDescription = newDescription.replace(match, `<img src="/icons/${iconName}.png">`)
+      })
+    }
+
+    return newDescription
   }
 
   get open() {
