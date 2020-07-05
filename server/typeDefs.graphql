@@ -1,3 +1,9 @@
 type Query {
-  helloThere: String!
+  keywords: [Keyword]!
+}
+
+type Keyword {
+  description: String!
+  name: String!
+  types: [String]!
 }
