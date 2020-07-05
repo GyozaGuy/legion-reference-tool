@@ -1,11 +1,13 @@
 <%
 config = {
+  css: ['pages/home/home'],
+  mjs: ['pages/home/home', 'queries'],
   title: 'Home'
 }
 %>
 
 <%- include('partials/header') %>
 
-<h1>Home Page</h1>
+<section id="cardContainer"></section>
 
 <%- include('partials/footer') %>
