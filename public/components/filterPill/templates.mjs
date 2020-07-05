@@ -4,8 +4,9 @@ export default {
   styles: () => html`
     <style component="filter-pill">
       filter-pill {
-        background-color: White;
+        background-color: #555;
         border-radius: 20px;
+        color: White;
         display: inline-block;
         padding: 5px 10px;
         text-transform: capitalize;

@@ -16,9 +16,10 @@ export default {
   styles: () => html`
     <style component="keyword-card">
       keyword-card {
-        background-color: White;
+        background-color: #555;
         border-radius: 4px;
-        box-shadow: 0 2px 4px LightGrey;
+        box-shadow: 0 2px 4px #b32e29;
+        color: White;
       }
 
       .keywordCard_header, .keywordCard_body {
@@ -26,8 +27,9 @@ export default {
       }
 
       .keywordCard_header {
-        display: flex;
-        justify-content: space-between;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 60% 40%;
       }
 
       .keywordCard_types {
