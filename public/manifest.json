@@ -1,0 +1,20 @@
+{
+  "name": "Star Wars: Legion Reference",
+  "short_name": "SWLR",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#3d566a",
+  "theme_color": "#b32e29"
+}

@@ -10,10 +10,20 @@ const {
 %>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title><%= title %> :: Template</title>
+    <meta name="description" content="Reference tool for Star Wars: Legion">
+    <meta name="theme-color" content="#b32e29">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> :: Star Wars: Legion Reference</title>
+    <link href="/manifest.json" rel="manifest">
     <link href="/css/global.css" rel="stylesheet">
+    <!-- Apple stuff -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Star Wars: Legion Reference">
+    <link rel="apple-touch-icon" href="/images/icon-192.png">
+    <!-- End Apple stuff -->
     <% css.forEach(c => { %>
       <link href="<%= c %>.css" rel="stylesheet">
     <% }) %>
@@ -26,3 +36,4 @@ const {
   </head>
 
   <body>
+    <noscript>This application requires JavaScript to be enabled!</noscript>
