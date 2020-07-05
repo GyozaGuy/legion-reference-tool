@@ -8,7 +8,21 @@ const keywords = JSON.parse(fs.readFileSync(join(__dirname, '..', 'data', 'keywo
 export default {
   Query: {
     keywords() {
-      return keywords
+      return sortByProperty(keywords, 'name')
     }
   }
+}
+
+function sortByProperty(objects, propertyName) {
+  return keywords.sort((a, b) => {
+    if (a[propertyName] < b[propertyName]) {
+      return -1
+    }
+
+    if (a[propertyName] > b[propertyName]) {
+      return 1
+    }
+
+    return 0
+  })
 }
