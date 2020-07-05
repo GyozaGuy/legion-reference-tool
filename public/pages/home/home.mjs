@@ -49,8 +49,6 @@ document.addEventListener('filter-pill:toggle', ({ detail: { enabled, filterValu
     activeFilters.splice(activeFilters.indexOf(filterValue), 1)
   }
 
-  console.log(activeFilters);
-
   [...cardContainer.children].forEach(child => {
     child.hidden = activeFilters.length && !activeFilters.every(type => child.types.includes(type))
   })
