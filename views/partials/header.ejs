@@ -1,0 +1,28 @@
+<%
+const {
+  components = [],
+  css = [],
+  header = '',
+  mjs = [],
+  nav = true,
+  title = 'Replace Me'
+} = config
+%>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %> :: Template</title>
+    <link href="/css/global.css" rel="stylesheet">
+    <% css.forEach(c => { %>
+      <link href="<%= c %>.css" rel="stylesheet">
+    <% }) %>
+    <% components.forEach(c => { %>
+      <script src="/components/<%= c %>/<%= c %>.mjs" type="module"></script>
+    <% }) %>
+    <% mjs.forEach(m => { %>
+      <script src="<%= m %>.mjs" type="module"></script>
+    <% }) %>
+  </head>
+
+  <body>

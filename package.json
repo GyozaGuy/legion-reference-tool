@@ -1,0 +1,30 @@
+{
+  "name": "graphql-es6-template",
+  "version": "1.0.0",
+  "description": "Template for creating new Node.js projects with GraphQL and ES6 modules.",
+  "main": "server/server.mjs",
+  "scripts": {
+    "start": "nodemon --ignore './public/' --experimental-modules server/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyozaGuy/graphql-es6-template.git"
+  },
+  "author": "GyozaGuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GyozaGuy/graphql-es6-template/issues"
+  },
+  "homepage": "https://github.com/GyozaGuy/graphql-es6-template#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
