@@ -1,462 +1,462 @@
 [
   {
-    "name": "Arm X: Charge Type",
     "description": "Place X charge token(s) within range 1 and in line of sight of your unit leader.",
+    "name": "Arm X: Charge Type",
     "types": ["active", "card action", "weapon keyword"]
   },
   {
-    "name": "Claim",
     "description": "Claim an objective token that is in base contact with your unit leader.",
+    "name": "Claim",
     "types": ["active", "card action", "command card keyword"]
   },
   {
-    "name": "Jump X",
     "description": "Perform a move during which you ignore terrain that is height X or lower. This is treated as a move action.",
+    "name": "Jump X",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Pulling the Strings",
     "description": "Choose a friendly trooper unit at range 1-2. That unit may perform a free attack action or a free move action.",
+    "name": "Pulling the Strings",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Quick Thinking",
     "description": "Gain 1 aim token and 1 dodge token.",
+    "name": "Quick Thinking",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Repair",
     "description": "Place a wound token on this card to remove 1 wound, ion, or vehicle damage token from a friendly ground vehicle at range 1 and in line of sight. Limit 2 tokens.",
+    "name": "Repair",
     "types": ["active", "free card action", "upgrade keyword"]
   },
   {
-    "name": "Sabotage/Repair",
     "description": "If you are in base contact with an objective token, either remove 1 wound token from it or place 1 wound token on it.",
+    "name": "Sabotage/Repair",
     "types": ["active", "card action", "command card keyword"]
   },
   {
-    "name": "Secret Mission",
     "description": "Once per game, if you are within an enemy deployment zone, place 1 victory token on you. At the end of the game, if you have a victory token, gain that token.",
+    "name": "Secret Mission",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Spotter X",
     "description": "Choose up to X friendly units at range 1. Each chosen unit gains an aim token.",
+    "name": "Spotter X",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Take Cover X",
     "description": "Choose up to X friendly trooper units at range 1. Each chosen unit gains a dodge token.",
+    "name": "Take Cover X",
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "name": "Treat X: Y",
     "description": "Place a wound token on this card to remove 1 wound token from or restore 1 mini to a friendly non-emplacement trooper unit at range 1 and in line of sight. Limit 2 tokens.",
+    "name": "Treat X: Y",
     "types": ["active", "free card action", "upgrade keyword"]
   },
   {
-    "name": "AI: Attack/Move",
     "description": "Unless you have a faceup order token, your first action must be Attack, if able; or move.",
+    "name": "AI: Attack/Move",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Armor",
     "description": "While defending, cancel all hit results.",
+    "name": "Armor",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Armor X",
     "description": "While defending, cancel X hit results.",
+    "name": "Armor X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Arsenal X",
     "description": "While attacking, each model on this unit can use up to X of its weapons.",
+    "name": "Arsenal X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Beam",
     "description": "After performing an attack with this weapon, you may perform up to 2 extra attack using only this weapon. Each attack must be against an enemy unit that is in line of sight, has not already defended, and is at range 1 of the previous defender.",
+    "name": "Beam",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Blast",
     "description": "Ignore cover.",
+    "name": "Blast",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Block",
     "description": "While defending, if you spend a dodge token, you gain \"%{iconSurgeBlock} : %{iconBlock}\".",
+      "name": "Block",
       "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Bounty",
     "description": "After setup, place a victory token on an enemy commander or operative. If you defeat a unit with a victory token, move that token to you. At the end of the game, if you have a victory token, gain that token.",
+    "name": "Bounty",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Charge",
     "description": "After you perform a move action, you may perform a free melee attack action.",
+    "name": "Charge",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Climbing Vehicle",
     "description": "You are treated as a trooper for the purposes of vertical movement.",
+    "name": "Climbing Vehicle",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Compel",
     "description": "After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.",
+    "name": "Compel",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Coordinate: X",
     "description": "After you are issued an order, you may issue an order to a friendly X at range 1.",
+    "name": "Coordinate: X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Cover X",
     "description": "While defending against a ranged attack, improve your cover by X.",
+    "name": "Cover X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Critical X",
     "description": "While converting offensive surges, change up to X %{iconSurgeHit} results to %{iconCrit} result(s).",
+    "name": "Critical X",
     "types": ["passive", "unit keyword", "weapon keyword"]
   },
   {
-    "name": "Cumbersome",
     "description": "You cannot use this weapon and move [except for pivots] during the same activation.",
+    "name": "Cumbersome",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Cunning",
     "description": "When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.",
+    "name": "Cunning",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Danger Sense X",
     "description": "You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to X extra dice.",
+    "name": "Danger Sense X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Dauntless",
     "description": "After you rally, if you are suppressed but not panicked, you may gain 1 suppression token to perform a free move action.",
+    "name": "Dauntless",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Deflect",
     "description": "While defending, if you spend a dodge token, you gain “Surge: Block”: if it’s a ranged attack, the attacker suffers 1 wound for each Surge rolled.",
+    "name": "Deflect",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Demoralize X",
     "description": "After your Rally step, an enemy unit range 1-2 gains up to 1 suppression token.",
+    "name": "Demoralize X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Detonate X: Y",
     "description": "After a unit controlled by any player performs an action, each unit that has a weapon with the detonate x: charge type keyword may detonate x friendly charge tokens of the specified type.",
+    "name": "Detonate X: Y",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Disciplined X",
     "description": "When you are issued an order, you may remove up to X suppression tokens.",
+    "name": "Disciplined X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Disengage",
     "description": "You can perform moves while engaged with 1 unit.",
+    "name": "Disengage",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Enrage X",
     "description": "While you have X or more wound tokens, treat your courage as '-' and gain Charge.",
+    "name": "Enrage X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Entourage: X",
     "description": "While building an army, ignore the rank of 1 X unit. During the Command Phase, you may issue an order to a friendly X unit at range 1-2.",
+    "name": "Entourage: X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Expert Climber",
     "description": "While clambering, do not roll defense dice or suffer wounds.",
+    "name": "Expert Climber",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Fire Support",
     "description": "When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eligible weapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.",
+    "name": "Fire Support",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Fixed: front/rear/side",
     "description": "The defender must be inside your front arc, rear arc, or 1 of both side arcs.",
+    "name": "Fixed: front/rear/side",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Full Pivot",
     "description": "When you pivot, you can pivot up to 360°.",
+    "name": "Full Pivot",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Generator X",
     "description": "During the End Phase, flip X inactive shield tokens.",
+    "name": "Generator X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Grounded",
     "description": "You cannot clamber.",
+    "name": "Grounded",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Guardian X",
     "description": "When a friendly unit at range 1 is defending against a ranged attack, you may choose up to X hit result(s). For each result chosen, roll a defense die as though you were the defender.",
+    "name": "Guardian X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Gunslinger",
     "description": "After you perform a ranged attack action, you may perform an additional ranged attack against a different unit.",
+    "name": "Gunslinger",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Heavy Weapon Team",
     "description": "You must equip a Heavy Weapon upgrade card. The mini added by that card is your unit leader.",
+    "name": "Heavy Weapon Team",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "High Velocity",
     "description": "While attacking, if each weapon in your attack pool has High Velocity, the defender cannot spend dodge tokens.",
+    "name": "High Velocity",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Immune: Blast/Deflect/Melee/Pierce",
     "description": "Blast/Deflect/Melee/Pierce cannot be used against you.",
+    "name": "Immune: Blast/Deflect/Melee/Pierce",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Impact X",
     "description": "While attacking a unit that has Armor, change up to X %{iconHit} result(s) to %{iconCrit} result(s).",
+    "name": "Impact X",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Impervious",
     "description": "While defending, if the attack pool has Pierce X, roll x additional dice.",
+    "name": "Impervious",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Indomitable",
     "description": "During the Rally step, roll red defense dice instead of white.",
+    "name": "Indomitable",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Inconspicuous",
     "description": "When an enemy unit performs an attack, if you have at least 1 suppression token, it must attack another unit, if able. During your Rally step, you may choose not to remove your suppression tokens.",
+    "name": "Inconspicuous",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Ion X",
     "description": "A vehicle or droid wounded by an attack that includes this weapon gains X ion token(s).",
+    "name": "Ion X",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Inspire X",
     "description": "After your rally step, remove X suppression token(s) from another friendly unit at range 1-2.",
+    "name": "Inspire X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Infiltrate",
     "description": "You may deploy anywhere beyond range 3 of all enemy units.",
+    "name": "Infiltrate",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Jedi Hunter",
     "description": "While attacking a unit that has a Force upgrade icon, you gain \"%{iconSurgeHit} : %{iconCrit}\".",
+      "name": "Jedi Hunter",
       "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Leader",
     "description": "The added mini is your unit leader.",
+    "name": "Leader",
     "types": ["passive", "upgrade keyword"]
   },
   {
-    "name": "Light Transport X: Open",
     "description": "You may transport one friendly trooper unit that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
+    "name": "Light Transport X: Open",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Low Profile",
     "description": "While defending, if you have light cover, improve your cover by 1.",
+    "name": "Low Profile",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Master of the Force X",
     "description": "At the end of your activation, you may ready X of your Force upgrade cards.",
+    "name": "Master of the Force X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Nimble",
     "description": "After defending, if you spent 1 or more dodge tokens, gain 1 dodge token.",
+    "name": "Nimble",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Noncombatant",
     "description": "If an upgrade that adds a miniature to a unit has the noncombatant keyword, the mini added by that upgrade cannot use any weapons and wounds must be assigned to other non-unit leader minis first.",
+    "name": "Noncombatant",
     "types": ["passive", "upgrade keyword"]
   },
   {
-    "name": "Pierce X",
     "description": "When attacking, ignore up to X block results.",
+    "name": "Pierce X",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Poison X",
     "description": "A trooper wounded by an attack that includes this weapon gains X poison token(s).",
+    "name": "Poison X",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Plodding",
     "description": "During your activation, you can perform only 1 standard move.",
+    "name": "Plodding",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Precise X",
     "description": "When you spend an aim token, reroll up to X additional die/dice.",
+    "name": "Precise X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Ram X",
     "description": "While attacking, if you performed a full standard move at your maximum sped before this attack, you may turn 1 attack die to a %{iconCrit} result.",
+    "name": "Ram X",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Ready X",
     "description": "After you perform a standby action, gain 1 aim token.",
+    "name": "Ready X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Regenerate X",
     "description": "At the end of your activation, roll 1 white defense die for each wound token you have, up to X. For each Defense Surge or Block result, remove 1 wound token.",
+    "name": "Regenerate X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Relentless",
     "description": "After you perform a move action, you may perform a free attack action.",
+    "name": "Relentless",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Reposition",
     "description": "Either before or after you perform a standard move, you may perform a free pivot action.",
+    "name": "Reposition",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Scale",
     "description": "You gain Unhindered and Expert Climber. You may perform a free clamber maneuver before or after you move.",
+    "name": "Scale",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Scout X",
     "description": "After you deploy, you may perform a speed X move.",
+    "name": "Scout X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Sentinel",
     "description": "Your standby range is 1-3.",
+    "name": "Sentinel",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Sharpshooter X",
     "description": "While performing a ranged attack, reduce the defender’s cover by X.",
+    "name": "Sharpshooter X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Shielded X",
     "description": "You have X shield tokens.",
+    "name": "Shielded X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Sidearm: Melee/Ranged",
     "description": "While performing a melee attack, this model can only use the weapon on this card.",
+    "name": "Sidearm: Melee/Ranged",
     "types": ["passive", "upgrade keyword"]
   },
   {
-    "name": "Soresu Mastery",
     "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{iconSurgeBlock} : %{iconBlock}\" and the attacker suffers 1 wound for each %{iconSurgeBlock} rolled.",
+      "name": "Soresu Mastery",
       "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Speeder X",
     "description": "While moving, ignore terrain that is height X or lower. When you activate, perform a compulsory move.",
+    "name": "Speeder X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Spray",
     "description": "Add this weapon's dice to the attack pool one time for each mini in the defending unit to which line of sight is not blocked.",
+    "name": "Spray",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Spur",
     "description": "While performing a move, you may gain 1 suppression token to increase your maximum speed by 1.",
+    "name": "Spur",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Stationary",
     "description": "You cannot perform moves, except pivots.",
+    "name": "Stationary",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Steady",
     "description": "After you perform a move action, you may perform a free ranged attack action.",
+    "name": "Steady",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Suppressive",
     "description": "After you perform an attack, the defender that this weapon was used against gains 1 suppression token.",
+    "name": "Suppressive",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Teamwork: X",
     "description": "While you are at range 1-2 of X, when you or X gains an aim or dodge token, then other unit gains a token of the same type.",
+    "name": "Teamwork: X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Tow Cable",
     "description": "After a vehicle is wounded by an attack that includes this weapon, perform a pivot with that vehicle.",
+    "name": "Tow Cable",
     "types": ["passive", "weapon keyword"]
   },
   {
-    "name": "Transport X: Open",
     "description": "You may transport one friendly trooper unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
+    "name": "Transport X: Open",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Uncanny Luck X",
     "description": "While defending, you may reroll up to X defense dice.",
+    "name": "Uncanny Luck X",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Unhindered",
     "description": "You ignore the effects of difficult terrain.",
+    "name": "Unhindered",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Outmaneuver",
     "description": "You can spend dodge tokens to cancel %{iconCrit} results.",
+    "name": "Outmaneuver",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Versatile",
     "description": "You can perform ranged attacks using this weapon while engaged.",
+    "name": "Versatile",
     "types": ["command card keyword", "passive", "weapon keyword"]
   },
   {
-    "name": "Weak Point X: Y",
     "description": "While defending, if the attacker’s unit leader is inside your Y arc, the attack pool gains Impact X.",
+    "name": "Weak Point X: Y",
     "types": ["passive", "unit keyword"]
   },
   {
-    "name": "Wheel Move",
     "description": "When you activate, you may increase you maximum speed to 3. If you do, until the end of the round, you gain Cover 2 and cannot attack or flip active shield tokens.",
+    "name": "Wheel Move",
     "types": ["passive", "unit keyword"]
   }
 ]
