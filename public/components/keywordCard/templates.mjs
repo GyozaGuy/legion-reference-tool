@@ -7,8 +7,11 @@ export default {
   default: () => html`
     <expanding-card></expanding-card>
   `,
-  header: name => html`
-    <div class="keywordCard_header"><strong>${name}</strong></div>
+  header: (name, types) => html`
+    <div class="keywordCard_header">
+      <strong>${name}</strong>
+      <div class="keywordCard_types">${types.join(', ')}</div>
+    </div>
   `,
   styles: () => html`
     <style component="keyword-card">
@@ -20,6 +23,15 @@ export default {
 
       .keywordCard_header, .keywordCard_body {
         padding: 30px 20px;
+      }
+
+      .keywordCard_header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .keywordCard_types {
+        text-transform: capitalize;
       }
 
       .keywordCard_body {

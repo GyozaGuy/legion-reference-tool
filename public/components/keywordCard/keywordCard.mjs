@@ -12,7 +12,7 @@ customElements.define('keyword-card', class extends HTMLElement {
     this.name = this.getAttribute('keyword-name')
     this.types = this.getAttribute('types')
 
-    this.card.header = templates.header(this.name)
+    this.card.header = templates.header(this.name, this.types)
     this.card.body = templates.body(this.insertIcons(this.description))
 
     this.addEventListener('expanding-card:toggle', ({ detail: open }) => {
