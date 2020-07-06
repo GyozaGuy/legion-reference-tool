@@ -40,6 +40,11 @@
     "types": ["active", "card action", "unit keyword"]
   },
   {
+    "description": "Place X smoke tokens within range 1 and in line of sight of your unit leader.",
+    "name": "Smoke X",
+    "types": ["active", "card action", "weapon keyword"]
+  },
+  {
     "description": "Choose up to X friendly units at range 1. Each chosen unit gains an aim token.",
     "name": "Spotter X",
     "types": ["active", "card action", "unit keyword"]
