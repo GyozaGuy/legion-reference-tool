@@ -40,7 +40,7 @@
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "description": "Place X smoke tokens within range 1 and in line of sight of your unit leader.",
+    "description": "Place X smoke token(s) within range 1 and in line of sight of your unit leader.",
     "name": "Smoke X",
     "types": ["active", "card action", "weapon keyword"]
   },
