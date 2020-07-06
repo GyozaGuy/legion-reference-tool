@@ -11,7 +11,6 @@ export async function getKeywords() {
     }
   `)
 
-
   return resp.data.keywords
 }
 
