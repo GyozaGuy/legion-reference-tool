@@ -8,6 +8,7 @@ const letterPillsContainer = document.body.querySelector('#letterPillsContainer'
 const keywordPillsContainer = document.body.querySelector('#keywordPillsContainer')
 const cardsContainer = document.body.querySelector('#cardsContainer')
 const textFilter = document.body.querySelector('#textFilter')
+const clearTextButton = document.body.querySelector('#clearTextButton')
 const keywordTypes = []
 const activeFilters = []
 
@@ -97,4 +98,9 @@ textFilter.addEventListener('input', ({ target: { value } }) => {
       child.hidden = false
     })
   }
+})
+
+clearTextButton.addEventListener('click', () => {
+  textFilter.value = ''
+  textFilter.dispatchEvent(new Event('input'))
 })
