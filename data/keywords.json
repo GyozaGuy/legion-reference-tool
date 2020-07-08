@@ -91,8 +91,8 @@
   },
   {
     "description": "While defending, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\".",
-      "name": "Block",
-      "types": ["passive", "unit keyword"]
+    "name": "Block",
+    "types": ["passive", "unit keyword"]
   },
   {
     "description": "After setup, place a victory token on an enemy commander or operative. If you defeat a unit with a victory token, move that token to you. At the end of the game, if you have a victory token, gain that token.",
@@ -276,8 +276,8 @@
   },
   {
     "description": "While attacking a unit that has a Force upgrade icon, you gain \"%{surgeHit} : %{crit}\".",
-      "name": "Jedi Hunter",
-      "types": ["passive", "unit keyword"]
+    "name": "Jedi Hunter",
+    "types": ["passive", "unit keyword"]
   },
   {
     "description": "The added mini is your unit leader.",
@@ -386,8 +386,8 @@
   },
   {
     "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\" and the attacker suffers 1 wound for each %{SurgeBlock} rolled.",
-      "name": "Soresu Mastery",
-      "types": ["passive", "unit keyword"]
+    "name": "Soresu Mastery",
+    "types": ["passive", "unit keyword"]
   },
   {
     "description": "While moving, ignore terrain that is height X or lower. When you activate, perform a compulsory move.",
