@@ -22,7 +22,13 @@ export default {
         color: White;
       }
 
-      .keywordCard_header, .keywordCard_body {
+      keyword-card[open] {
+        background-color: #666;
+        box-shadow: 0 4px 8px Crimson;
+      }
+
+      .keywordCard_header,
+      .keywordCard_body {
         padding: 30px 20px;
       }
 
@@ -40,5 +46,5 @@ export default {
         padding-top: 0;
       }
     </style>
-`
+  `
 }
