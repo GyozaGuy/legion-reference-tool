@@ -120,8 +120,8 @@
     "types": ["passive", "unit keyword"]
   },
   {
-    "description": "Counterpart: X",
-    "name": "While building an army, this mini must be added to a(n) X unit.",
+    "description": "While building an army, this mini must be added to a(n) X unit.",
+    "name": "Counterpart: X",
     "types": ["passive", "unit keyword"]
   },
   {
