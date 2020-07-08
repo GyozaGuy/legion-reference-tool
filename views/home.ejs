@@ -9,8 +9,13 @@ config = {
 <%- include('partials/header') %>
 
 <section id="container">
-  <section id="filterPillsContainer"></section>
-  <section id="cardContainer"></section>
+  <section id="filtersContainer">
+    <div id="letterPillsContainer"></div>
+    <div id="keywordPillsContainer"></div>
+    <input id="textFilter" placeholder="Type to search" type="text">
+  </section>
+
+  <section id="cardsContainer"></section>
 </section>
 
 <%- include('partials/footer') %>
