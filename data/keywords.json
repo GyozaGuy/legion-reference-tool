@@ -25,8 +25,8 @@
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "description": "Place a wound token on this card to remove 1 wound, ion, or vehicle damage token from a friendly ground vehicle at range 1 and in line of sight. Limit 2 tokens.",
-    "name": "Repair",
+    "description": "Place a wound token on this card to remove X wound, ion, or vehicle damage token(s) from a friendly ground vehicle at range 1 and in line of sight. Limit Y tokens.",
+    "name": "Repair X: Capacity Y",
     "types": ["active", "free card action", "upgrade keyword"]
   },
   {
