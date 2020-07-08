@@ -2,10 +2,9 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/serviceWorker.mjs').then(() => {
-          console.log('Service worker registered.')
-        })
+      window.addEventListener('load', async () => {
+        await navigator.serviceWorker.register('/serviceWorker.mjs')
+        console.log('Service worker registered.')
       })
     }
   </script>
