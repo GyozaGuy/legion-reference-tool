@@ -3,6 +3,10 @@ body {
   overflow: hidden;
 }
 
+label {
+  color: White;
+}
+
 #container {
   display: grid;
   grid-gap: 10px;
