@@ -20,25 +20,25 @@ self.addEventListener('activate', async () => {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(response => {
+    caches.match(event.request).then(async response => {
       if (response) {
         return response
       }
 
-      return fetch(event.request).then(async response => {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
-          return response
-        }
+      const requestResponse = await fetch(event.request)
 
-        const responseToCache = response.clone()
-        const cache = await caches.open(CACHE_NAME)
+      if (!requestResponse || requestResponse.status !== 200 || requestResponse.type !== 'basic') {
+        return requestResponse
+      }
 
-        if (event.request.method !== 'POST') {
-          cache.put(event.request, responseToCache)
-        }
+      const responseToCache = requestResponse.clone()
+      const cache = await caches.open(CACHE_NAME)
 
-        return response
-      })
+      if (event.request.method !== 'POST') {
+        cache.put(event.request, responseToCache)
+      }
+
+      return requestResponse
     })
   )
 })
