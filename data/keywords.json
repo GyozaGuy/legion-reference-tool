@@ -65,6 +65,11 @@
     "types": ["passive", "unit keyword"]
   },
   {
+    "description": "Unless you have a faceup order token, your first action must be a dodge or a move.",
+    "name": "AI: Dodge/Move",
+    "types": ["passive", "unit keyword"]
+  },
+  {
     "description": "While defending, cancel all hit results.",
     "name": "Armor",
     "types": ["passive", "unit keyword"]
@@ -348,6 +353,11 @@
     "description": "After you perform a standby action, gain 1 aim token.",
     "name": "Ready X",
     "types": ["passive", "unit keyword"]
+  },
+  {
+    "description": "When you recover, flip X inactive shield tokens.",
+    "name": "Recharge X",
+    "types": ["passive", "upgrade keyword"]
   },
   {
     "description": "At the end of your activation, roll 1 white defense die for each wound token you have, up to X. For each Defense Surge or Block result, remove 1 wound token.",
