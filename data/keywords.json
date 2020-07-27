@@ -60,6 +60,11 @@
     "types": ["active", "free card action", "upgrade keyword"]
   },
   {
+    "description": "After you perform a standard move, gain X dodge token(s).",
+    "name": "Agile X",
+    "types": ["passive", "unit keyword"]
+  },
+  {
     "description": "Unless you have a faceup order token, your first action must be Attack, if able; or move.",
     "name": "AI: Attack/Move",
     "types": ["passive", "unit keyword"]
@@ -82,6 +87,11 @@
   {
     "description": "While attacking, each model on this unit can use up to X of its weapons.",
     "name": "Arsenal X",
+    "types": ["passive", "unit keyword"]
+  },
+  {
+    "description": "If you do not use Arsenal during your activation, you can perform up to 2 attack actions.",
+    "name": "Barrage",
     "types": ["passive", "unit keyword"]
   },
   {
@@ -150,6 +160,11 @@
     "types": ["passive", "unit keyword"]
   },
   {
+    "description": "At the end of your activation, if you did not use this card, ready it.",
+    "name": "Cycle",
+    "types": ["passive", "weapon keyword"]
+  },
+  {
     "description": "You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to X extra dice.",
     "name": "Danger Sense X",
     "types": ["passive", "unit keyword"]
@@ -200,6 +215,11 @@
     "types": ["passive", "unit keyword"]
   },
   {
+    "description": "After a friendly neutral command card is played, you may be nominated as a commander.",
+    "name": "Field Commander",
+    "types": ["passive", "unit keyword"]
+  },
+  {
     "description": "When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eligible weapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.",
     "name": "Fire Support",
     "types": ["passive", "unit keyword"]
@@ -243,6 +263,11 @@
     "description": "While attacking, if each weapon in your attack pool has High Velocity, the defender cannot spend dodge tokens.",
     "name": "High Velocity",
     "types": ["passive", "weapon keyword"]
+  },
+  {
+    "description": "You can reverse, strafe, and standby. You are treated as a ground vehicle by other units.",
+    "name": "Hover: Ground",
+    "types": ["passive", "unit keyword"]
   },
   {
     "description": "Blast/Deflect/Melee/Pierce cannot be used against you.",
@@ -385,6 +410,11 @@
     "types": ["passive", "unit keyword"]
   },
   {
+    "description": "After you perform an attack against a small base trooper unit, you may place each defending non-leader mini in cohesion.",
+    "name": "Scatter",
+    "types": ["passive", "weapon keyword"]
+  },
+  {
     "description": "After you deploy, you may perform a speed X move.",
     "name": "Scout X",
     "types": ["passive", "unit keyword"]
@@ -443,6 +473,16 @@
     "description": "After you perform an attack, the defender that this weapon was used against gains 1 suppression token.",
     "name": "Suppressive",
     "types": ["passive", "weapon keyword"]
+  },
+  {
+    "description": "After you perform a standard move, gain X aim token(s).",
+    "name": "Tactical X",
+    "types": ["passive", "unit keyword"]
+  },
+  {
+    "description": "After you are issued an order, gain X aim token(s).",
+    "name": "Target X",
+    "types": ["passive", "unit keyword"]
   },
   {
     "description": "While you are at range 1-2 of X, when you or X gains an aim or dodge token, then other unit gains a token of the same type.",
