@@ -55,7 +55,7 @@
     "types": ["active", "card action", "unit keyword"]
   },
   {
-    "description": "Place a wound token on this card to remove 1 wound token from or restore 1 mini to a friendly non-emplacement trooper unit at range 1 and in line of sight. Limit 2 tokens.",
+    "description": "Place a wound token on this card to remove X wound token(s) from or restore X mini(s) to a friendly non-emplacement trooper unit at range 1 and in line of sight. Limit Y token(s).",
     "name": "Treat X: Y",
     "types": ["active", "free card action", "upgrade keyword"]
   },
@@ -300,7 +300,7 @@
     "types": ["passive", "weapon keyword"]
   },
   {
-    "description": "You may transport one friendly trooper unit that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
+    "description": "You may transport X friendly trooper unit(s) that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
     "name": "Light Transport X: Open",
     "types": ["passive", "unit keyword"]
   },
@@ -455,7 +455,7 @@
     "types": ["passive", "weapon keyword"]
   },
   {
-    "description": "You may transport one friendly trooper unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
+    "description": "You may transport X friendly trooper unit(s). After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.",
     "name": "Transport X: Open",
     "types": ["passive", "unit keyword"]
   },
