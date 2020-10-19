@@ -440,7 +440,7 @@
     "types": ["passive", "upgrade keyword"]
   },
   {
-    "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\" and the attacker suffers 1 wound for each %{SurgeBlock} rolled.",
+    "description": "While defending or using Guardian, if you spend a dodge token, you gain \"%{surgeBlock} : %{block}\" and the attacker suffers 1 wound for each %{surgeBlock} rolled.",
     "name": "Soresu Mastery",
     "types": ["passive", "unit keyword"]
   },
