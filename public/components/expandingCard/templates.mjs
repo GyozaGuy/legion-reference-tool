@@ -10,6 +10,10 @@ export default {
       expanding-card:not([open]) .expandingCard_body {
         display: none;
       }
+
+      .expandingCard_header {
+        cursor: pointer;
+      }
     </style>
   `
 }

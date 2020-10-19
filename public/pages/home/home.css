@@ -42,6 +42,7 @@ label {
 #clearTextButton {
   background: 0;
   border: 0;
+  cursor: pointer;
   font-size: 100%;
   line-height: 100%;
   outline: 0;

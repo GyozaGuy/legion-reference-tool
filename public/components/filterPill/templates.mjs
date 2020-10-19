@@ -7,6 +7,7 @@ export default {
         background-color: #555;
         border-radius: 20px;
         color: White;
+        cursor: pointer;
         display: inline-block;
         padding: 5px 10px;
         text-transform: capitalize;
