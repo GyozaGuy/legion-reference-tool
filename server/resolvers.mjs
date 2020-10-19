@@ -14,7 +14,7 @@ export default {
 }
 
 function sortByProperty(objects, propertyName) {
-  return keywords.sort((a, b) => {
+  return objects.sort((a, b) => {
     if (a[propertyName] < b[propertyName]) {
       return -1
     }
