@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     cardsContainer.appendChild(html`
       <keyword-card
-        description="${description}"
+        description='${description}'
         keyword-name="${name}"
         types="${types.join('|')}"
       ></keyword-card>
