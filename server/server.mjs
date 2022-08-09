@@ -1,22 +1,24 @@
-import yoga from 'graphql-yoga'
+import { createServer } from '@graphql-yoga/node'
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import resolvers from './resolvers.mjs'
 import pages from './routes/pages.mjs'
 
+const app = express()
 const { static: expressStatic } = express
-const { GraphQLServer } = yoga
-const server = new GraphQLServer({
+const graphQLServer = createServer({
   context: req => ({ req: req.request }),
-  resolvers,
-  typeDefs: './server/typeDefs.graphql'
+  schema: {
+    resolvers,
+    typeDefs: './server/typeDefs.graphql'
+  }
 })
 
-server.express.set('view engine', 'ejs')
-server.express.use(expressStatic('public'))
-server.express.use(cookieParser())
+app.set('view engine', 'ejs')
+app.use(expressStatic('public'))
+app.use(cookieParser())
 
-server.express.use((_req, res, next) => {
+app.use((_req, res, next) => {
   res.pageData = {
     config: {}
   }
@@ -24,12 +26,16 @@ server.express.use((_req, res, next) => {
   next()
 })
 
-server.express.use('/', pages)
+app.use('/', pages)
+app.use('/graphql', graphQLServer)
 
-const serverOptions = {
-  endpoint: '/graphql',
-  playground: '/playground',
-  port: process.env.PORT || 3000
-}
+const PORT = process.env.PORT || 3000
 
-server.start(serverOptions, ({ port }) => console.info(`Server is running on localhost:${port}`))
+app.listen(PORT, () => {
+  console.info(`Server is running on localhost:${PORT}`)
+})
+
+// const serverOptions = {
+//   endpoint: '/graphql',
+//   playground: '/playground',
+// }

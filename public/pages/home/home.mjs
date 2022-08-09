@@ -1,7 +1,7 @@
-import './components/filterPill/filterPill.mjs'
-import './components/keywordCard/keywordCard.mjs'
-import { getKeywords } from './queries.mjs'
-import { html } from './helpers/templateHelper.mjs'
+import '/components/filterPill/filterPill.mjs'
+import '/components/keywordCard/keywordCard.mjs'
+import { getKeywords } from '/queries.mjs'
+import { html } from '/helpers/templateHelper.mjs'
 
 const filtersContainer = document.body.querySelector('#filtersContainer')
 const letterPillsContainer = document.body.querySelector('#letterPillsContainer')
